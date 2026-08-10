@@ -1,7 +1,5 @@
 ---
 title: Publications
-summary: Research publications and preprints.
+summary: Selected publications from Google Scholar.
 view: citation
 ---
-
-Publications will be listed here as they become available.

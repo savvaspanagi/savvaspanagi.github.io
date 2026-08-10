@@ -67,10 +67,38 @@ sections:
       view: card
       spacing:
         padding: [0, 0, 0, 0]
+  - block: collection
+    id: papers
+    content:
+      title: Publications
+      text: Selected works from [Google Scholar](https://scholar.google.com/citations?user=MpLLY28AAAAJ&hl=en).
+      filters:
+        folders:
+          - publications
+    design:
+      view: citation
+  - block: collection
+    id: talks
+    content:
+      title: Timeline
+      text: Conferences, workshops, secondments, and milestones. See the full [Timeline](/events/).
+      filters:
+        folders:
+          - events
+        exclude_future: false
+      count: 6
+      order: desc
+    design:
+      view: card
   - block: resume-skills
     id: skills
     content:
       title: Skills
+      username: me
+  - block: resume-languages
+    id: languages
+    content:
+      title: Languages
       username: me
   - block: resume-experience
     id: experience

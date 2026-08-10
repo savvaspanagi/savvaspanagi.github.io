@@ -10,6 +10,12 @@ main:
   - name: Articles
     url: blog/
     weight: 20
+  - name: Publications
+    url: publications/
+    weight: 25
+  - name: Timeline
+    url: events/
+    weight: 28
   - name: Experience
     url: experience/
     weight: 30

@@ -102,6 +102,19 @@ sections:
       order: desc
     design:
       view: card
+  - block: collection
+    id: projects
+    content:
+      title: Projects
+      text: Selected research projects. See all [Projects](/projects/).
+      filters:
+        folders:
+          - projects
+      count: 3
+      order: desc
+    design:
+      view: card
+      fill_image: false
   - block: resume-skills
     id: skills
     content:

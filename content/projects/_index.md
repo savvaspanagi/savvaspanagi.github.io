@@ -8,7 +8,7 @@ sections:
   - block: collection
     content:
       title: Selected Projects
-      text: Selected research and engineering projects. More will be added soon.
+      text: Selected research and engineering projects, including work with TSOC and the Sustainable Power Systems Lab.
       filters:
         folders:
           - projects

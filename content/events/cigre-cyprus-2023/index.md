@@ -3,9 +3,9 @@ title: "CIGRE Cyprus National Conference 2023"
 date: "2023-11-14T00:00:00Z"
 event_name: "CIGRE Cyprus National Conference 2023"
 location: "Cyprus"
-summary: "Presented work on BESS with FFR and FCR in the Cyprus power system."
+summary: "Debut presentation on BESS with FFR/FCR for the Cyprus power system."
 abstract: |
-  Addressing under-frequency load shedding and Nadir challenges, with support from TSO Cyprus colleagues and supervisor Petros Aristidou.
+  Excited to make my debut at CIGRE Cyprus National Conference 2023! Work focuses on integrating Battery Energy Storage System (BESS) with Fast Frequency Response (FFR) and Frequency Control Reserve (FCR) in the Cyprus power system to address challenges like under-frequency load shedding.
 
 event_start: "2023-11-14T00:00:00Z"
 event_end: "2023-11-14T23:59:59Z"
@@ -18,4 +18,4 @@ tags: []
 featured: false
 ---
 
-Addressing under-frequency load shedding and Nadir challenges, with support from TSO Cyprus colleagues and supervisor Petros Aristidou.
+Excited to make my debut at CIGRE Cyprus National Conference 2023! Work focuses on integrating Battery Energy Storage System (BESS) with Fast Frequency Response (FFR) and Frequency Control Reserve (FCR) in the Cyprus power system to address challenges like under-frequency load shedding.

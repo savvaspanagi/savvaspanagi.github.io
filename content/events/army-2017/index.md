@@ -5,7 +5,7 @@ event_name: "Cyprus National Guard"
 location: "Cyprus"
 summary: "Mandatory military service in the artillery department as a communicator."
 abstract: |
-  Served in the Cyprus National Guard.
+  The Cypriot army, known as the Cyprus National Guard, plays a crucial role in safeguarding the sovereignty and security of the island. Conscription is mandatory for male citizens, and service typically lasts for 12 months. I served in the artillery department with the specialty of a communicator.
 
 event_start: "2017-09-09T00:00:00Z"
 event_end: "2018-09-06T23:59:59Z"
@@ -18,4 +18,4 @@ tags: []
 featured: false
 ---
 
-Served in the Cyprus National Guard.
+The Cypriot army, known as the Cyprus National Guard, plays a crucial role in safeguarding the sovereignty and security of the island. Conscription is mandatory for male citizens, and service typically lasts for 12 months. I served in the artillery department with the specialty of a communicator.

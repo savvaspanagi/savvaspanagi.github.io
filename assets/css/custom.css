@@ -151,6 +151,21 @@ html.dark .cool-timeline-wrap,
   transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
 }
 
+.cool-timeline-media {
+  display: block;
+  margin: -0.15rem -0.2rem 0.75rem;
+  overflow: hidden;
+  border-radius: 0.65rem;
+}
+
+.cool-timeline-media img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  background: color-mix(in oklab, canvasText 6%, canvas);
+}
+
 .cool-timeline-item:hover .cool-timeline-card,
 .cool-timeline-item:focus-within .cool-timeline-card {
   transform: translateY(-2px);

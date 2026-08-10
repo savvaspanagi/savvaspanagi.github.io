@@ -1,11 +1,11 @@
 ---
-title: "New Project: ESS & Grid-Forming Requirements"
+title: "ESS and Grid Forming technical requirements"
 date: "2024-05-01T00:00:00Z"
-event_name: "New Project: ESS & Grid-Forming Requirements"
-location: "Cyprus University of Technology"
-summary: "Started project with TSO/DSO of Cyprus on ESS integration and grid-forming inverter standards."
+event_name: "ESS and Grid Forming technical requirements"
+location: "Cyprus"
+summary: "Project on ESS and grid-forming technical requirements with TSOC/DSO/SPS."
 abstract: |
-  Focus on technical requirements for energy storage and grid-forming inverters for voltage and frequency support.
+  Started work related to energy storage systems and grid-forming technical requirements, in collaboration with system stakeholders.
 
 event_start: "2024-05-01T00:00:00Z"
 event_end: "2024-05-01T23:59:59Z"
@@ -18,4 +18,4 @@ tags: []
 featured: false
 ---
 
-Focus on technical requirements for energy storage and grid-forming inverters for voltage and frequency support.
+Started work related to energy storage systems and grid-forming technical requirements, in collaboration with system stakeholders.

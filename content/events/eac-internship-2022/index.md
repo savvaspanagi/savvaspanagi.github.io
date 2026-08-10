@@ -3,9 +3,9 @@ title: "Internship at Electricity Authority of Cyprus"
 date: "2022-10-01T00:00:00Z"
 event_name: "Internship at Electricity Authority of Cyprus"
 location: "Cyprus"
-summary: "Network studies, PV licensing, and distribution grid familiarization using ArcMap and one-line diagrams."
+summary: "Internship at EAC focused on the Cyprus distribution power system."
 abstract: |
-  Worked on network extension studies and licensing of photovoltaic installations.
+  During my internship at the Electricity Authority of Cyprus (EAC), I became familiar with the Cyprus distributor power system and related operational topics.
 
 event_start: "2022-10-01T00:00:00Z"
 event_end: "2023-02-28T23:59:59Z"
@@ -18,4 +18,4 @@ tags: []
 featured: false
 ---
 
-Worked on network extension studies and licensing of photovoltaic installations.
+During my internship at the Electricity Authority of Cyprus (EAC), I became familiar with the Cyprus distributor power system and related operational topics.

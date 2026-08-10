@@ -5,7 +5,7 @@ event_name: "Joined SPS Lab as Research Associate"
 location: "Cyprus University of Technology"
 summary: "Started research on operating marginal policy for frequency reserves in Cyprus."
 abstract: |
-  Dimensioning inertia, FFR, FCR, FRR, and RR reserves for day-ahead operation.
+  Joined the Sustainable Power Systems Lab of Cyprus University of Technology and started working on operating marginal policy for frequency reserves in the power system of Cyprus. Main responsibilities included dimensioning the necessary inertia, FFR, FCR, FRR, and RR reserves.
 
 event_start: "2023-05-15T00:00:00Z"
 event_end: "2023-05-15T23:59:59Z"
@@ -18,4 +18,4 @@ tags: []
 featured: false
 ---
 
-Dimensioning inertia, FFR, FCR, FRR, and RR reserves for day-ahead operation.
+Joined the Sustainable Power Systems Lab of Cyprus University of Technology and started working on operating marginal policy for frequency reserves in the power system of Cyprus. Main responsibilities included dimensioning the necessary inertia, FFR, FCR, FRR, and RR reserves.

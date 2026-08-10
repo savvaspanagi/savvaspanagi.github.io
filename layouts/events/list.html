@@ -28,6 +28,7 @@
           {{ $parsed := try (time .) }}
           {{ if not $parsed.Err }}{{ $date = $parsed.Value }}{{ end }}
         {{ end }}
+        {{ $img := ($item.Resources.ByType "image").GetMatch "*featured*" }}
 
         <article class="cool-timeline-item cool-timeline-item--{{ $side }}">
           <div class="cool-timeline-marker" aria-hidden="true">
@@ -39,6 +40,12 @@
           </time>
 
           <div class="cool-timeline-card">
+            {{ with $img }}
+              <a class="cool-timeline-media" href="{{ $item.RelPermalink }}">
+                <img src="{{ .RelPermalink }}" alt="{{ $item.Title }}" loading="lazy">
+              </a>
+            {{ end }}
+
             <h2 class="cool-timeline-title">
               <a href="{{ $item.RelPermalink }}">{{ $item.Title }}</a>
             </h2>

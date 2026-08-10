@@ -1,0 +1,66 @@
+{{ define "main" }}
+
+<div class="max-w-prose mx-auto flex justify-center">
+  <article class="prose prose-slate lg:prose-xl dark:prose-invert">
+    <h1 class="lg:text-6xl">{{ .Title }}</h1>
+    {{ with .Content }}{{ . }}{{ end }}
+    {{ with .Params.summary }}
+      {{ if not $.Content }}
+        <p>{{ . }}</p>
+      {{ end }}
+    {{ end }}
+  </article>
+</div>
+
+{{ $pages := .Pages.ByDate.Reverse }}
+
+<div class="cool-timeline-wrap">
+  <div class="cool-timeline" aria-label="Timeline">
+    {{ range $yearGroup := $pages.GroupByDate "2006" }}
+      <div class="cool-timeline-year">
+        <span>{{ $yearGroup.Key }}</span>
+      </div>
+
+      {{ range $index, $item := $yearGroup.Pages }}
+        {{ $side := cond (mod $index 2 | eq 0) "left" "right" }}
+        {{ $date := $item.Date }}
+        {{ with $item.Params.event_start }}
+          {{ $parsed := try (time .) }}
+          {{ if not $parsed.Err }}{{ $date = $parsed.Value }}{{ end }}
+        {{ end }}
+
+        <article class="cool-timeline-item cool-timeline-item--{{ $side }}">
+          <div class="cool-timeline-marker" aria-hidden="true">
+            <span class="cool-timeline-dot"></span>
+          </div>
+
+          <time class="cool-timeline-date" datetime="{{ $date.Format "2006-01-02" }}">
+            {{ $date | time.Format "Jan 2, 2006" }}
+          </time>
+
+          <div class="cool-timeline-card">
+            <h2 class="cool-timeline-title">
+              <a href="{{ $item.RelPermalink }}">{{ $item.Title }}</a>
+            </h2>
+
+            {{ with $item.Params.location }}
+              <p class="cool-timeline-meta">{{ . }}</p>
+            {{ end }}
+
+            {{ with $item.Params.summary }}
+              <p class="cool-timeline-summary">{{ . }}</p>
+            {{ else }}
+              {{ with $item.Summary }}
+                <p class="cool-timeline-summary">{{ . | plainify | truncate 180 }}</p>
+              {{ end }}
+            {{ end }}
+
+            <a class="cool-timeline-link" href="{{ $item.RelPermalink }}">Read more</a>
+          </div>
+        </article>
+      {{ end }}
+    {{ end }}
+  </div>
+</div>
+
+{{ end }}

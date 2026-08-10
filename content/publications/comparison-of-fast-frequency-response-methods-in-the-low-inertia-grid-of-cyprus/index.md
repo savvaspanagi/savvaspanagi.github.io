@@ -4,8 +4,8 @@ authors:
 - Andreas Argyrou
 - me
 - Petros Aristidou
-date: "2024-01-01T00:00:00Z"
-publishDate: "2024-01-01T00:00:00Z"
+date: "2024-10-21T00:00:00Z"
+publishDate: "2024-10-21T00:00:00Z"
 publication_types: ["paper-conference"]
 publication:
   name: "2024 3rd International Conference on Energy Transition in the Mediterranean Area (SyNERGY MED)"

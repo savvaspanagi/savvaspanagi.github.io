@@ -5,8 +5,8 @@ authors:
 - Phivos Therapontos
 - Chrysovalantis Spanias
 - Petros Aristidou
-date: "2025-01-01T00:00:00Z"
-publishDate: "2025-01-01T00:00:00Z"
+date: "2025-10-20T00:00:00Z"
+publishDate: "2025-10-20T00:00:00Z"
 publication_types: ["paper-conference"]
 publication:
   name: "2025 IEEE PES Innovative Smart Grid Technologies Conference Europe (ISGT Europe)"

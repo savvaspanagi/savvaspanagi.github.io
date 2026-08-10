@@ -6,8 +6,8 @@ authors:
 - Paul Christodoulides
 - Chrysovalantis Spanias
 - Petros Aristidou
-date: "2026-01-01T00:00:00Z"
-publishDate: "2026-01-01T00:00:00Z"
+date: "2026-05-01T00:00:00Z"
+publishDate: "2026-05-01T00:00:00Z"
 publication_types: ["article-journal"]
 publication:
   name: "Smart Energy"

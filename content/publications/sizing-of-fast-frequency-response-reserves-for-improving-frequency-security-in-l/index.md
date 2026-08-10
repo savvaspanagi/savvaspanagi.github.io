@@ -3,8 +3,8 @@ title: "Sizing of Fast Frequency Response Reserves for improving frequency secur
 authors:
 - me
 - Petros Aristidou
-date: "2025-01-01T00:00:00Z"
-publishDate: "2025-01-01T00:00:00Z"
+date: "2025-06-01T00:00:00Z"
+publishDate: "2025-06-01T00:00:00Z"
 publication_types: ["article-journal"]
 publication:
   name: "Sustainable Energy, Grids and Networks"

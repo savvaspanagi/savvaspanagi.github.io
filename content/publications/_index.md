@@ -2,7 +2,6 @@
 title: Publications
 date: 2024-01-01
 type: landing
-summary: Selected publications from Google Scholar.
 
 sections:
   - block: collection

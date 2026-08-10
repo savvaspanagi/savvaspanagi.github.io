@@ -72,11 +72,23 @@ sections:
     content:
       title: Publications
       text: Selected works from [Google Scholar](https://scholar.google.com/citations?user=MpLLY28AAAAJ&hl=en).
+      count: 20
+      order: desc
       filters:
         folders:
           - publications
+      archive:
+        enable: true
+        text: All publications
+        link: /publications/
     design:
-      view: card
+      view: article-grid
+      columns: 5
+      fill_image: false
+      show_date: true
+      show_read_time: false
+      show_read_more: false
+
   - block: collection
     id: talks
     content:

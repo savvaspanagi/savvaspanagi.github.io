@@ -16,6 +16,4 @@ tags: []
 links:
   - type: pdf
     url: https://arxiv.org/pdf/2601.21651
-    provider: arxiv
-    id: 2601.21651
 ---

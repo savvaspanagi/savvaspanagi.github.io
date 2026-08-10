@@ -1,12 +1,7 @@
 ---
 title: Publications
-cms_exclude: true
-
-# View.
+summary: Research publications and preprints.
 view: citation
-
-# Optional header image (relative to `static/media/` folder).
-banner:
-  caption: ''
-  image: ''
 ---
+
+Publications will be listed here as they become available.

@@ -76,7 +76,7 @@ sections:
         folders:
           - publications
     design:
-      view: citation
+      view: card
   - block: collection
     id: talks
     content:

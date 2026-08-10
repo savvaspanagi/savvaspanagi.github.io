@@ -13,11 +13,9 @@ peer_reviewed: false
 featured: false
 summary: "arXiv preprint"
 tags: []
-hugoblox:
-  ids:
-    arxiv: 2608.03226
 links:
-  - type: preprint
+  - type: pdf
+    url: https://arxiv.org/pdf/2608.03226
     provider: arxiv
     id: 2608.03226
 ---

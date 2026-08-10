@@ -1,5 +1,5 @@
 ---
 title: Publications
 summary: Selected publications from Google Scholar.
-view: citation
+view: card
 ---

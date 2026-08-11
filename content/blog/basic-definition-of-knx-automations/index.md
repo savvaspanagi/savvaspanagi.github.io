@@ -21,5 +21,3 @@ In the case of the use of the most widespread means of transmission of KNX techn
 - The number of system functions increases significantly.
 
 - The transparency of the facility increases.
-
-To get more familiar with KNX programming, in the future on the [Projects](/projects/) tab tutorials about programming will come on.

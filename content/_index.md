@@ -65,7 +65,6 @@ sections:
       show_date: true
       show_read_time: false
       show_read_more: false
-
 - block: collection
     id: news
     content:
@@ -93,7 +92,6 @@ sections:
       show_read_more: false
       spacing:
         padding: [0, 0, 0, 0]
-
   - block: collection
     id: talks
     content:

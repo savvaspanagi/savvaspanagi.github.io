@@ -52,7 +52,7 @@ sections:
       subtitle: ''
       text: ''
       page_type: blog
-      count: 6
+      count: 2
       filters:
         author: ''
         category: ''
@@ -70,9 +70,8 @@ sections:
   - block: collection
     id: papers
     content:
-      title: Publications
-      text: Selected works from [Google Scholar](https://scholar.google.com/citations?user=MpLLY28AAAAJ&hl=en).
-      count: 20
+      title: Latest Publications
+      count: 4
       order: desc
       filters:
         folders:
@@ -98,7 +97,7 @@ sections:
         folders:
           - events
         exclude_future: false
-      count: 6
+      count: 2
       order: desc
     design:
       view: card
@@ -110,7 +109,7 @@ sections:
       filters:
         folders:
           - projects
-      count: 3
+      count: 2
       order: desc
     design:
       view: card

@@ -65,7 +65,7 @@ sections:
       show_date: true
       show_read_time: false
       show_read_more: false
-- block: collection
+  - block: collection
     id: news
     content:
       title: Latest Articles
@@ -132,7 +132,7 @@ sections:
   #   id: experience
   #   content:
   #     username: me
-    design:
-      date_format: 'January 2006'
-      is_education_first: false
+  #   design:
+  #     date_format: 'January 2006'
+  #     is_education_first: false
 ---

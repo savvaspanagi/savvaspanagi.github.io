@@ -1,6 +1,6 @@
 ---
 title: "DENSE"
-date: 2024-01-01
+date: 2025-01-01
 summary: "MSCA Doctoral Network on dependable engineering of Smart Energy Systems — optimal operation of electric vehicles and heat pumps in active distribution grids."
 authors:
   - me

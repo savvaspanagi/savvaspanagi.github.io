@@ -46,6 +46,27 @@ sections:
     design:
       columns: '1'
   - block: collection
+    id: papers
+    content:
+      title: Latest Publications
+      count: 4
+      order: desc
+      filters:
+        folders:
+          - publications
+      archive:
+        enable: true
+        text: All publications
+        link: /publications/
+    design:
+      view: article-grid
+      columns: 5
+      fill_image: false
+      show_date: true
+      show_read_time: false
+      show_read_more: false
+
+- block: collection
     id: news
     content:
       title: Latest Articles
@@ -72,26 +93,6 @@ sections:
       show_read_more: false
       spacing:
         padding: [0, 0, 0, 0]
-  - block: collection
-    id: papers
-    content:
-      title: Latest Publications
-      count: 4
-      order: desc
-      filters:
-        folders:
-          - publications
-      archive:
-        enable: true
-        text: All publications
-        link: /publications/
-    design:
-      view: article-grid
-      columns: 5
-      fill_image: false
-      show_date: true
-      show_read_time: false
-      show_read_more: false
 
   - block: collection
     id: talks

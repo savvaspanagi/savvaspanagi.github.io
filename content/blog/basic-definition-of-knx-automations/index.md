@@ -22,5 +22,3 @@ In the case of the use of the most widespread means of transmission of KNX techn
 
 - The transparency of the facility increases.
 
-To get more familiar with KNX programming, at the future on the [PROJECTS](https://savvaspanagi.com/?page_id=12) tab tutorials about programming will come on.
-

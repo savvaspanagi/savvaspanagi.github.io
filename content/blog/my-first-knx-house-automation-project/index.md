@@ -31,8 +31,3 @@ The project involved installing KNX-compatible sensors and actuators to control 
 - 1 x RGB LED controller (AKD-0324V01)
 
 In the KNX installation, a Type 3 surge arrestor plays a crucial role, shielding against low-energy voltage spikes and surges. However, at the main distribution board, it’s imperative to install a Type 1 surge arrestor for comprehensive protection. This robust device not only guards against direct lightning strikes but also adeptly handles high-energy surges, ensuring the resilience of the system. The power supply chosen for the KNX setup has a nominal current of 640 mA, strategically accommodating future expansions with ease. To facilitate seamless scene control, we’ve deployed three push buttons/sensors: two discreetly positioned within the bedroom (one at the entrance of the bedroom and another next to the bed), and a third positioned outside the bathroom. For enhanced functionality, we’ve integrated two advanced sensors/buttons featuring screens—one strategically placed in the corridor and another at the house entrance—enabling intuitive control and monitoring. Complementing these controls, a 16-fold actuator for various loads, ensuring smooth and efficient functionality throughout. Lastly, to elevate the ambiance of the living space, we’ve installed an RGB controller in the living room. This dynamic addition allows us to craft captivating lighting moods, enhancing the overall atmosphere of the house.
-
-## Step-by-step guide:
-
-As we can see in Figure 1, there are 15 loads in the whole 1-floor house.
-

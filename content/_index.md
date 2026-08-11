@@ -64,7 +64,12 @@ sections:
       offset: 0
       order: desc
     design:
-      view: card
+      view: article-grid
+      columns: 2
+      fill_image: false
+      show_date: true
+      show_read_time: false
+      show_read_more: false
       spacing:
         padding: [0, 0, 0, 0]
   - block: collection

@@ -119,15 +119,15 @@ sections:
     content:
       title: Skills
       username: me
-  - block: resume-languages
-    id: languages
-    content:
-      title: Languages
-      username: me
-  - block: resume-experience
-    id: experience
-    content:
-      username: me
+  # - block: resume-languages
+  #   id: languages
+  #   content:
+  #     title: Languages
+  #     username: me
+  # - block: resume-experience
+  #   id: experience
+  #   content:
+  #     username: me
     design:
       date_format: 'January 2006'
       is_education_first: false

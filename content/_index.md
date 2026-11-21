@@ -11,10 +11,7 @@ sections:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: me
       text: ''
-      # Show a call-to-action button under your biography? (optional)
-      button:
-        text: Download CV
-        url: cv/Savvas-Panagi-CV.pdf
+      # Buttons are in the home-actions section below (View Experience + View CV side by side)
       headings:
         about: About me
         education: Education
@@ -33,6 +30,17 @@ sections:
       avatar:
         size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
+  - block: markdown
+    id: home-actions
+    content:
+      title: ''
+      text: |-
+        <div class="home-cta-row not-prose">
+          <a class="home-cta home-cta--primary" href="/experience/">View Experience</a>
+          <a class="home-cta home-cta--secondary" href="/cv/Savvas-Panagi-CV.pdf" target="_blank" rel="noopener">View CV</a>
+        </div>
+    design:
+      columns: '1'
   - block: markdown
     content:
       title: 'Welcome'

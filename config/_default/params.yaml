@@ -94,7 +94,7 @@ hugoblox:
     # Call-to-action button
     cta:
       enable: true
-      text: "Download CV"
+      text: "View CV"
       url: "/cv/Savvas-Panagi-CV.pdf"
 
   # ────────────────────────────────────────────────────────────────────────────

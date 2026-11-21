@@ -331,6 +331,13 @@ html.dark .cool-timeline-wrap,
   padding: 0 1.25rem;
 }
 
+.home-cta-row--inline {
+  justify-content: flex-start;
+  margin: 1.25rem 0 0;
+  padding: 0;
+  max-width: none;
+}
+
 .home-cta {
   display: inline-flex;
   align-items: center;

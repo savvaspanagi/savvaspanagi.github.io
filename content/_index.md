@@ -10,8 +10,16 @@ sections:
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: me
-      text: ''
-      # Buttons are in the home-actions section below (View Experience + View CV side by side)
+      # Bio + two CTAs under About me (theme supports only one native button)
+      text: |-
+        I am an enthusiastic electrical engineer researcher based in Cyprus, specializing in Energy Power Systems. From an early age, I have been passionate about programming, troubleshooting computer hardware, and experimenting with electrical systems. This passion led me to study electrical and computer engineering.
+
+        I am currently an Industrial PhD Student at the Electricity Authority of Cyprus and a Part-time Researcher at the Sustainable Power System Lab of the Cyprus University of Technology. On this website I share notes from my learning journey across power systems, programming, automations, Arduino, mathematics, and related topics.
+
+        <div class="home-cta-row home-cta-row--inline not-prose">
+          <a class="home-cta home-cta--primary" href="/experience/">View Experience</a>
+          <a class="home-cta home-cta--secondary" href="/cv/Savvas-Panagi-CV.pdf" target="_blank" rel="noopener">View CV</a>
+        </div>
       headings:
         about: About me
         education: Education
@@ -31,17 +39,6 @@ sections:
         size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
   - block: markdown
-    id: home-actions
-    content:
-      title: ''
-      text: |-
-        <div class="home-cta-row not-prose">
-          <a class="home-cta home-cta--primary" href="/experience/">View Experience</a>
-          <a class="home-cta home-cta--secondary" href="/cv/Savvas-Panagi-CV.pdf" target="_blank" rel="noopener">View CV</a>
-        </div>
-    design:
-      columns: '1'
-  - block: markdown
     content:
       title: 'Welcome'
       subtitle: ''
@@ -50,7 +47,7 @@ sections:
 
         I am currently an Industrial PhD Student at the Electricity Authority of Cyprus and a Part-time Researcher at the Sustainable Power System Lab of the Cyprus University of Technology.
 
-        On this website I share research updates, projects, and selected notes from my learning journey across power systems, programming, automations, and related topics. You can also [download my CV](/cv/Savvas-Panagi-CV.pdf).
+        On this website I share research updates, projects, and selected notes from my learning journey across power systems, programming, automations, and related topics. You can also [view my CV](/cv/Savvas-Panagi-CV.pdf).
     design:
       columns: '1'
   - block: collection

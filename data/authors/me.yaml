@@ -13,13 +13,14 @@ status:
   icon: ""
 role: Electrical and Computer Engineer · Researcher · PhD Candidate
 bio: |
-  I am an enthusiastic electrical engineer researcher based in Cyprus, specializing in Energy Power Systems.
-  From an early age, I have been passionate about programming, troubleshooting computer hardware, and experimenting
-  with electrical systems. This passion led me to study electrical and computer engineering.
+  I am a passionate researcher specializing in energy power systems. My work focuses on the operation and flexibility
+  of active distribution networks, including electric vehicles, heat pumps, and related energy technologies.
 
-  I am currently an Industrial PhD Student at the Electricity Authority of Cyprus and a Part-time Researcher at the
-  Sustainable Power System Lab of the Cyprus University of Technology. On this website I share notes from my learning
-  journey across power systems, programming, automations, Arduino, mathematics, and related topics.
+  From an early age, I have been passionate about programming, troubleshooting computer hardware, and experimenting
+  with electrical systems — a curiosity that led me to study electrical and computer engineering.
+
+  I am currently an Industrial PhD Candidate at the Electricity Authority of Cyprus and a Part-time Researcher at the
+  Sustainable Power System Lab of the Cyprus University of Technology, where I combine academic research with industrial practice.
 
 affiliations:
   - name: Electricity Authority of Cyprus
@@ -42,6 +43,7 @@ links:
 
 interests:
   - Power Systems
+  - Electricity Markets
   - Active Distribution Networks
   - Electric Vehicles & Heat Pumps
   - Energy Storage & Grid-Forming Inverters
@@ -70,6 +72,12 @@ education:
     summary: |
       Integrated Master, GPA 8.34/10. Thesis: Optimal operation of smart grids and energy communities in distribution level.
       Specialization: Energy.
+  - degree: High School Diploma
+    institution: Paralimni Lyceum
+    start: 2014-09-01
+    end: 2017-06-30
+    summary: |
+      GPA 19/20. Subjects include Mathematics, Computer Science, Cisco, and Physics.
 
 experience:
   - role: Teaching Assistant

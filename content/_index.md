@@ -12,9 +12,11 @@ sections:
       username: me
       # Bio + two CTAs under About me (theme supports only one native button)
       text: |-
-        I am an enthusiastic electrical engineer researcher based in Cyprus, specializing in Energy Power Systems. From an early age, I have been passionate about programming, troubleshooting computer hardware, and experimenting with electrical systems. This passion led me to study electrical and computer engineering.
+        I am a passionate researcher specializing in energy power systems. My work focuses on the operation and flexibility of active distribution networks, including electric vehicles, heat pumps, and related energy technologies.
 
-        I am currently an Industrial PhD Student at the Electricity Authority of Cyprus and a Part-time Researcher at the Sustainable Power System Lab of the Cyprus University of Technology. On this website I share notes from my learning journey across power systems, programming, automations, Arduino, mathematics, and related topics.
+        From an early age, I have been passionate about programming, troubleshooting computer hardware, and experimenting with electrical systems — a curiosity that led me to study electrical and computer engineering.
+
+        I am currently an Industrial PhD Candidate at the Electricity Authority of Cyprus and a Part-time Researcher at the Sustainable Power System Lab of the Cyprus University of Technology, where I combine academic research with industrial practice.
 
         <div class="home-cta-row home-cta-row--inline not-prose">
           <a class="home-cta home-cta--primary" href="/experience/">View Experience</a>
@@ -38,18 +40,6 @@ sections:
       avatar:
         size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
-  - block: markdown
-    content:
-      title: 'Welcome'
-      subtitle: ''
-      text: |-
-        Welcome to my website! From an early age, I recall being passionate about programming, troubleshooting computer hardware problems, and experimenting with every electrical appliance that came my way. This passion drove me to study electrical and computer engineering.
-
-        I am currently an Industrial PhD Student at the Electricity Authority of Cyprus and a Part-time Researcher at the Sustainable Power System Lab of the Cyprus University of Technology.
-
-        On this website I share research updates, projects, and selected notes from my learning journey across power systems, programming, automations, and related topics. You can also [view my CV](/cv/Savvas-Panagi-CV.pdf).
-    design:
-      columns: '1'
   - block: collection
     id: papers
     content:

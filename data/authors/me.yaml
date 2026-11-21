@@ -25,7 +25,7 @@ affiliations:
   - name: Electricity Authority of Cyprus
     url: https://www.eac.com.cy/
   - name: Sustainable Power System Lab, Cyprus University of Technology
-    url: http://sps-lab.org
+    url: https://sps-lab.org
   - name: DENSE Doctoral Network
     url: https://www.dense-dn.eu/
 
@@ -52,53 +52,61 @@ interests:
 education:
   - degree: PhD Candidate – Electrical Engineering, Computer Engineering and Informatics
     institution: Cyprus University of Technology / Electricity Authority of Cyprus
-    start: 2023-06-01
+    start: 2024-06-01
     end: ""
     summary: |
-      Research topic: Optimal operation of electric vehicles and heat pumps in active distribution systems.
+      Research topic: Optimal operation of electric vehicles and heat pumps in active distribution networks.
       Industrial PhD under the DENSE (Dependable Smart Energy Systems) Horizon Europe MSCA Doctoral Network.
+  - degree: Visiting Ph.D. Researcher
+    institution: University of Manchester
+    start: 2025-11-01
+    end: 2025-12-31
+    summary: |
+      MSCA DENSE secondment on stochastic scheduling for electric vehicles and heat pumps.
   - degree: Diploma of Electrical and Computer Engineer (Energy)
     institution: National Technical University of Athens (NTUA)
     start: 2018-10-01
-    end: 2023-06-30
+    end: 2023-02-28
     summary: |
-      Thesis: Optimal operation of smart grids and energy communities in distribution level.
+      Integrated Master, GPA 8.34/10. Thesis: Optimal operation of smart grids and energy communities in distribution level.
       Specialization: Energy.
 
 experience:
   - role: Teaching Assistant
     org: Cyprus University of Technology – Sustainable Power System Lab
     start: 2025-01-01
+    end: 2026-12-31
     summary: |
-      Teaching Assistant for the undergraduate course EEN445 – Renewable Energy Sources.
-      Supervising laboratory sessions on techno-economic modeling of photovoltaic systems using SAM, and hands-on
-      training with SOLARTRAINER and WINDTRAINER equipment for PV and wind energy systems.
-  - role: Part-time Researcher
+      Spring semesters: Renewable Energy (EEN445) — laboratory sessions and coursework on wind energy, photovoltaics,
+      and System Advisor Model (SAM), including SOLARTRAINER and WINDTRAINER equipment.
+      Fall semesters: Power Electronics (EEN443) — laboratory sessions on power converters and inverters;
+      Power Systems II (EEN442) — power system modeling and simulation exercises using PowerFactory.
+  - role: Part-time Research Associate
     org: Sustainable Power System Lab, Cyprus University of Technology
-    start: 2024-06-01
+    start: 2025-01-01
     summary: |
-      Developed a Python-based framework to automate Dynawo dynamic simulations on the French transmission network (RTE),
-      evaluating execution time and CPU usage for real-time simulation tools under realistic contingency scenarios.
+      TRAISIM: Research on computational efficiency and scalability of large-scale power system dynamic simulations,
+      supporting an open-source real-time operator training platform based on Dynawo.
+      AutoMV: Developed an automated framework for converting GIS data into simulation-ready MV distribution network
+      models in DIgSILENT PowerFactory.
   - role: MSCA Ph.D. Student – Doctoral Candidate
     org: Electricity Authority of Cyprus – DENSE Horizon Europe MSCA Doctoral Network
     start: 2024-06-01
     summary: |
       Research focuses on optimizing the operation of electric vehicles and heat pumps within active distribution networks.
-      This industrial PhD bridges academic research and practical application in the energy sector through collaboration
-      between Cyprus University of Technology and the Electricity Authority of Cyprus (EAC).
-      DENSE is a 4-year Marie Skłodowska-Curie Actions Doctoral Network:
-      https://www.dense-dn.eu/
-  - role: Researcher
+      This industrial PhD bridges academic research and practical application through collaboration between
+      Cyprus University of Technology and the Electricity Authority of Cyprus (EAC).
+      DENSE: https://www.dense-dn.eu/
+  - role: Research Associate
     org: Cyprus University of Technology – Sustainable Power Systems Laboratory
-    start: 2023-06-01
+    start: 2023-05-01
     end: 2024-05-31
     summary: |
-      Project 1: In collaboration with the TSO and DSO of Cyprus, developed technical requirements for integrating Energy
-      Storage Systems (ESS) into the power grid and technical standards for grid-forming inverters to support voltage and
-      frequency regulation.
-
-      Project 2: Operating marginal policy for frequency reserves in Cyprus's power system — dimensioning inertia, FFR,
-      FCR, FRR, and RR for day-ahead scheduling, with verification using DIgSILENT PowerFactory and Python.
+      TSOC-OMP: Review of operating marginal policy for frequency reserves in Cyprus’s power system — dimensioning
+      inertia, FFR, FCR, FRR, and RR for day-ahead scheduling, with verification using DIgSILENT PowerFactory and Python.
+      BESS / DSO-TSO-ESS: In collaboration with the TSO and DSO of Cyprus, developed technical requirements for integrating
+      Energy Storage Systems (ESS) into the power grid and technical standards for grid-forming inverters to support
+      voltage and frequency regulation.
   - role: Internship
     org: Electricity Authority of Cyprus
     start: 2022-10-01
@@ -116,8 +124,8 @@ experience:
       including CAPEX/OPEX evaluation, NPV/IRR/SPB indicators, sensitivity analysis, and RES pre-study calculations.
   - role: Electrician Assistant
     org: Loupan Electrical Ltd
-    start: 2023-03-01
-    end: 2023-05-31
+    start: 2020-07-01
+    end: 2020-09-30
     summary: |
       Installation of lighting, sockets, switches, HVAC, and KNX automation systems.
 
@@ -130,10 +138,14 @@ skills:
         level: 4
       - label: PowerFactory (DIgSILENT)
         level: 4
+      - label: System Advisor Model (SAM)
+        level: 4
       - label: ETS-KNX
         level: 4
       - label: AutoCAD
         level: 4
+      - label: ArcMap
+        level: 3
       - label: Simatic Manager (PLC)
         level: 4
       - label: Photoshop
@@ -147,7 +159,7 @@ languages:
     label: Native
   - name: English
     level: 4
-    label: Fluent
+    label: Fluent (IELTS / IGCSE)
 
 awards:
   - title: Commendation in honor of Grigoris Farakos

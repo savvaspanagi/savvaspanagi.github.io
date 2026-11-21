@@ -93,9 +93,9 @@ hugoblox:
     language_switcher: true
     # Call-to-action button
     cta:
-      enable: false
-      text: ""
-      url: ""
+      enable: true
+      text: "Download CV"
+      url: "/cv/Savvas-Panagi-CV.pdf"
 
   # ────────────────────────────────────────────────────────────────────────────
   # FOOTER

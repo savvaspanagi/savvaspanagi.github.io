@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "My First KNX Home Automation Project: A Step-by-Step Guide"
 summary: "This is my first time diving into home automation in a bottom-up building, and I'm starting with something basic, lighting control. The client wanted a smarter and more energy-efficient home, so I decided to use KNX technology to automate t"
 date: 2024-02-06

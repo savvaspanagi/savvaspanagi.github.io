@@ -6,12 +6,12 @@ authors:
 - Petros Aristidou
 date: "2026-08-04T00:00:00Z"
 publishDate: "2026-08-04T00:00:00Z"
-publication_types: ["article"]
+publication_types: ["article-journal"]
 publication:
-  name: "arXiv preprint"
-peer_reviewed: false
+  name: "IEEE Transactions on Energy Markets, Policy and Regulation"
+peer_reviewed: true
 featured: false
-summary: "arXiv preprint"
+summary: "IEEE Transactions on Energy Markets, Policy and Regulation, 2026"
 tags: []
 links:
   - type: pdf

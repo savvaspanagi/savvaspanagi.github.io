@@ -13,8 +13,8 @@ sections:
       text: ''
       # Show a call-to-action button under your biography? (optional)
       button:
-        text: View Experience
-        url: experience/
+        text: Download CV
+        url: cv/Savvas-Panagi-CV.pdf
       headings:
         about: About me
         education: Education
@@ -42,7 +42,7 @@ sections:
 
         I am currently an Industrial PhD Student at the Electricity Authority of Cyprus and a Part-time Researcher at the Sustainable Power System Lab of the Cyprus University of Technology.
 
-        On this website I regularly share content that I find useful throughout my learning journey. The blog covers topics such as Power Systems, Programming, Automations, Arduino, Mathematics, and related subjects.
+        On this website I share research updates, projects, and selected notes from my learning journey across power systems, programming, automations, and related topics. You can also [download my CV](/cv/Savvas-Panagi-CV.pdf).
     design:
       columns: '1'
   - block: collection
